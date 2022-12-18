@@ -129,7 +129,7 @@ window.addEventListener("resize", onResize);
 requestAnimationFrame(render);
 
 window.onload=function starttime(){
-        time(h1,'2022/8/2');                           // 在一起的时间
+        time(h1,'2000/11/11');                           // 在一起的时间
         ptimer = setTimeout(starttime,1000);            // 添加计时器
 }
 
@@ -144,7 +144,7 @@ window.onload=function starttime(){
         var second = parseInt(time%60);                 // 以60秒为一整份 取余 剩下秒数
 //              console.log(hour+":"+minute+":"+second)
 //              alert(hour)
-        obj.innerHTML="<p>猪猪和叶子在一起涩涩"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"了</p><br><span></span>"
+        obj.innerHTML="<p>叶子已经活了"+day+"天"+hour+"小时"+minute+"分"+second+"秒"+"了</p><br><span></span>"
         return true;
     }
 </script>
